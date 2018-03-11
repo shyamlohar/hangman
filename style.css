@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: red;
+}
+
+#words{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 10px;
+}
+
+input{
+    margin-top: 20px;
+    margin-left: 8px;
+    height: 30px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    background-color: transparent;
+    border-style: hidden;
+    border-bottom: 4px solid lawngreen;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background:black;
+    border-style: hidden;
+    color: red;
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+    border: 1px solid red;
+    text-transform: uppercase;
+    padding:auto;
+    transition: 0.6s;
+}
+
+button:focus{
+    background: red;
+    color: black;
+    outline-color: black;
+}
+
+
+#image1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#image2{
+    position: absolute;
+    right: 16%;
+    top: -75%;
+    transform: scale(0.5);
+    border: 1px solid red;
+    opacity: 1;
+}
+
+/* saved value 
+70%
+65
+60
+55
+50
+45
+40 */
+
